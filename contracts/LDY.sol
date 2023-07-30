@@ -18,18 +18,18 @@ import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC2
  * It is non-upgradeable, non-ownable, non-pausable and non-restrictable. It is so safe to use
  * in a DAO context.
  *
- * It's supply is fixed to 100M tokens which are minted at deploy time. There is no way to mint
+ * It's supply is fixed to 75M tokens which are minted at deploy time. There is no way to mint
  * additional tokens in the future.
  *
  * Finally, here are its specifications:
  * - Name: **Ledgity Token**
  * - Symbol: **LDY**
  * - Decimals: **18**
- * - Total supply: **100,000,000 LDY**
+ * - Total supply: **75,000,000 LDY**
  * @custom:security-contact security@ledgity.com
  */
 contract LDY is ERC20, ERC20Burnable {
     constructor() ERC20("Ledgity Token", "LDY") {
-        _mint(msg.sender, 100_000_000 * 10 ** decimals());
+        _mint(msg.sender, 75_000_000 * 10 ** decimals());
     }
 }

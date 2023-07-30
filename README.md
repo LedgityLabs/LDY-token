@@ -19,14 +19,14 @@ It has been designed to be as light as possible and so doesn't implement any fun
 
 It is non-upgradeable, non-ownable, non-pausable and non-restrictable. It is so safe to use in a DAO context.
 
-It's supply is fixed to 100M tokens which are minted at deploy time. There is no way to mint additional tokens later.
+It's supply is fixed to 75M tokens which are minted at deploy time. There is no way to mint additional tokens later.
 
 Finally, here are its specifications:
 
 - Name: **Ledgity Token**
 - Symbol: **LDY**
 - Decimals: **18**
-- Total supply: **100,000,000 LDY**
+- Total supply: **75,000,000 LDY**
 
 ## Security
 
