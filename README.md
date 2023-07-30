@@ -26,7 +26,7 @@ Finally, here are its specifications:
 - Name: **Ledgity Token**
 - Symbol: **LDY**
 - Decimals: **18**
-- Total supply: **100,000,000 LDY**
+- Total supply: **75,000,000 LDY**
 
 ## Security
 
