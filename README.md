@@ -1,6 +1,6 @@
-# LTY-token
+# LDY-token
 
-The $LTY is the utility and governance token of the whole Ledgity ecosystem. This repo holds its contract source code.
+The $LDY is the utility and governance token of the whole Ledgity ecosystem. This repo holds its contract source code.
 
 This token is currently used in the following projects:
 
@@ -10,7 +10,7 @@ This token is currently used in the following projects:
 
 ## Design
 
-The $LTY contract inherits from:
+The $LDY contract inherits from:
 
 - [OpenZepellin 'ERC20' contract](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20)
 - [OpenZepellin 'ERC20Burnable' contract](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Burnable)
@@ -24,13 +24,13 @@ It's supply is fixed to 100M tokens which are minted at deploy time. There is no
 Finally, here are its specifications:
 
 - Name: **Ledgity Token**
-- Symbol: **LTY**
+- Symbol: **LDY**
 - Decimals: **18**
-- Total supply: **100,000,000 LTY**
+- Total supply: **100,000,000 LDY**
 
 ## Security
 
-To report any security-related information that may directly or indirectly have an impact on the $LTY token, please reach us at security@ledgity.com.
+To report any security-related information that may directly or indirectly have an impact on the $LDY token, please reach us at security@ledgity.com.
 
 ## License
 

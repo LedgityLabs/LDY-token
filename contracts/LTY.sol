@@ -5,10 +5,10 @@ import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
 /**
- * @title LTY
+ * @title LDY
  * @author Lila Rest (lila@ledgity.com)
- * @dev The $LTY is the utility and governance token of the whole Ledgity ecosystem.
- * The $LTY contract inherits from:
+ * @dev The $LDY is the utility and governance token of the whole Ledgity ecosystem.
+ * The $LDY contract inherits from:
  * - [Openzepellin 'ERC20' contract](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20)
  * - [Openzepellin 'ERC20Burnable' contract](https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Burnable)
  *
@@ -23,13 +23,13 @@ import {ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensions/ERC2
  *
  * Finally, here are its specifications:
  * - Name: **Ledgity Token**
- * - Symbol: **LTY**
+ * - Symbol: **LDY**
  * - Decimals: **18**
- * - Total supply: **100,000,000 LTY**
+ * - Total supply: **100,000,000 LDY**
  * @custom:security-contact security@ledgity.com
  */
-contract LTY is ERC20, ERC20Burnable {
-    constructor() ERC20("Ledgity Token", "LTY") {
+contract LDY is ERC20, ERC20Burnable {
+    constructor() ERC20("Ledgity Token", "LDY") {
         _mint(msg.sender, 100_000_000 * 10 ** decimals());
     }
 }
