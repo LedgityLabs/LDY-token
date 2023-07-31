@@ -11,8 +11,8 @@ describe("LDY contract", function () {
   });
 
   // Test case
-  it("Should have a total supply of 100M tokens", async function () {
-    const expectedSupply = ethers.parseUnits("100000000", 18);
+  it("Should have a total supply of 75M tokens", async function () {
+    const expectedSupply = ethers.parseUnits("75000000", 18);
     const totalSupply = await deployment.totalSupply();
     expect(totalSupply).to.equal(expectedSupply);
   });
