@@ -1,28 +1,24 @@
 {
-  "name": "LDY-token",
+  "name": "ldy-token",
   "version": "1.0.0",
+  "scripts": {
+    "cc:test": "forge test -vvv --use 0.8.20",
+    "cc:slither:report": "slither . --compile-force-framework hardhat --checklist > report.md ",
+    "cc:slither:triage": "slither . --compile-force-framework hardhat --triage-mode",
+    "cc:slither:pausable": "slither . --compile-force-framework hardhat --print not-pausable",
+    "cc:node": "hardhat node --hostname 0.0.0.0",
+    "cc:compile": "hardhat compile && hardhat export --export-all contracts/deployments.json && ts-node"
+  },
   "devDependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
-    "@nomicfoundation/hardhat-ethers": "^3.0.0",
-    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "@nomicfoundation/hardhat-verify": "^1.0.0",
-    "@openzeppelin/contracts": "^4.9.2",
-    "@typechain/ethers-v6": "^0.4.0",
-    "@typechain/hardhat": "^8.0.0",
-    "@types/chai": "^4.2.0",
-    "@types/mocha": ">=9.1.0",
-    "@types/node": ">=12.0.0",
-    "chai": "^4.2.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.3",
+    "@openzeppelin/contracts": "^5.0.1",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "cz-conventional-changelog": "^3.3.0",
-    "ethers": "^6.4.0",
-    "hardhat": "^2.16.1",
-    "hardhat-gas-reporter": "^1.0.8",
-    "prettier-plugin-solidity": "^1.1.3",
-    "solidity-coverage": "^0.8.0",
-    "ts-node": ">=8.0.0",
-    "typechain": "^8.1.0",
-    "typescript": ">=4.5.0"
+    "hardhat": "^2.19.4",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-deploy": "^0.11.45",
+    "prettier": "^3.1.1",
+    "prettier-plugin-solidity": "^1.3.1"
   },
   "config": {
     "commitizen": {

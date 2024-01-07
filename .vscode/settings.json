@@ -1,5 +1,28 @@
 {
   // Required because of a bug with pnpm and prettier plugins.
   // See: https://github.com/prettier-solidity/prettier-plugin-solidity#pnpm
+  "prettier.documentSelectors": ["**/*.sol"],
+  "files.exclude": {
+    "node_modules": false,
+    "tsconfig.json": false,
+    "pnpm-lock.yaml": false,
+    "LICENSE": false,
+    "README.md": false,
+    "foundry/cache": false,
+    "foundry/out": false,
+    "hardhat/artifacts": false,
+    "hardhat/cache": false,
+    "secrets.json": false,
+    "slither.config.json": false,
+    "slither.db.json": false,
+    ".prettierrc.js": false,
+    "hardhat.config.ts": false,
+    ".gitignore": false,
+    "foundry.toml": false,
+    "package.json": false,
+    "solc.json": false
+  },
+  // Required because of a bug with pnpm and prettier plugins.
+  // See: https://github.com/prettier-solidity/prettier-plugin-solidity#pnpm
   "prettier.documentSelectors": ["**/*.sol"]
 }

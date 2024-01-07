@@ -9,3 +9,17 @@ typechain-types
 cache
 artifacts
 
+# Hardhat
+coverage
+coverage.json
+typechain
+typechain-types
+hardhat/cache
+hardhat/artifacts
+
+# Foundry (TOCONTINUE)
+# Compiler files
+foundry/cache/
+foundry/out/
+
+secrets.json
