@@ -40,7 +40,7 @@ contract LDY is ERC20, ERC20Burnable, ERC20Capped {
     using SafeERC20 for IERC20;
 
     /// @notice Holds a reference to the vLDY contract.
-    vLDY public vestedLDY;
+    vLDY public immutable vestedLDY;
 
     constructor(
         address vestedLDY_
