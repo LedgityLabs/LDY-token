@@ -20,7 +20,9 @@
     ".gitignore": false,
     "foundry.toml": false,
     "package.json": false,
-    "solc.json": false
+    "solc.json": false,
+    ".gitmodules": false,
+    "foundry/lib": false
   },
   // Required because of a bug with pnpm and prettier plugins.
   // See: https://github.com/prettier-solidity/prettier-plugin-solidity#pnpm

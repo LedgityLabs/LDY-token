@@ -13,10 +13,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true,
+    "incremental": true
   },
-  "include": [
-    "./hardhat.config.ts",
-  ],
+  "include": ["./hardhat.config.ts", "hardhat/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules"]
 }
