@@ -54,7 +54,7 @@ const config: HardhatUserConfig = {
       verify: {
         etherscan: {
           apiKey: etherscanApiKey,
-          apiUrl: "https://api.etherscan.io/api",
+          apiUrl: "https://api.etherscan.io/",
         },
       },
     },
