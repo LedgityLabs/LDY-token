@@ -9,11 +9,13 @@
     "cc:node": "hardhat node --hostname 0.0.0.0",
     "cc:compile": "hardhat compile && hardhat export --export-all deployments.json && ts-node scripts/extract-abis.ts",
     "cc:deploy:goerli": "npx hardhat deploy --network ethereumGoerli",
-    "cc:deploy:mainnet": "npx hardhat deploy --network ethereum"
+    "cc:deploy:mainnet": "npx hardhat deploy --network ethereum",
+    "cc:deploy:arbitrum": "npx hardhat deploy --network arbitrum",
+    "cc:deploy:base": "npx hardhat deploy --network base"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-verify": "^2.0.3",
-    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/contracts": "4.8.3",
     "@types/node": "^20.10.6",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "cz-conventional-changelog": "^3.3.0",
@@ -29,5 +31,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "hardhat-safe-deployer": "github:DCAStack/hardhat-safe-deployer",
+    "viem": "^2.9.31"
   }
 }
