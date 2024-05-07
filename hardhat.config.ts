@@ -50,11 +50,11 @@ const safes = {
   },
   ethereum: {
     address: "0x30Fa557608017afB6E8e4ABe8027787C00473FF0",
-    url: "https://safe-transaction.ethereum.safe.global",
+    url: "https://safe-transaction-mainnet.safe.global",
   },
   base: {
     address: "0x2E816EA2A7Db3DB4C74298cae0d455f0F800E92A",
-    url: "https://safe-transaction.base.safe.global",
+    url: "https://safe-transaction-base.safe.global",
   },
   hardhat: {
     address: "0x0",

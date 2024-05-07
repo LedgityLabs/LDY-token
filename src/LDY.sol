@@ -36,7 +36,7 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /// @notice A basic ERC677 compatible token contract with burn and minting roles.
 /// @dev The total supply can be limited during deployment.
-contract TSTTOKEN is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, OwnerIsCreator {
+contract LDY is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, OwnerIsCreator {
   using EnumerableSet for EnumerableSet.AddressSet;
 
   error SenderNotMinter(address sender);
